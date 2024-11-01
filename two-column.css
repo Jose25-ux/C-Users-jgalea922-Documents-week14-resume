@@ -1,0 +1,56 @@
+*html {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  width: 60%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 15px 15px 25px #888888;
+  box-sizing: border-box;
+}
+.skills-list {
+  list-style-type: none;
+}
+
+.left-column {
+  margin: right;
+  border: right;
+  font-size: 15px;
+  padding: 5px;
+  background-color: darkblue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+.right-column {
+  font-size: 15px;
+  margin-left:30px;
+  border-left: 20px;
+}
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h1 {
+  font-weight: bold;
+}
+.h3 {
+  color: darkblue;
+}
+
+.p {
+  font-size: 20px;
+}
+.job-title {
+  font-weight: bold;
+}
+.job-date {
+  font-style: italic;
+
+  color: #666;
+}
